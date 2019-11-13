@@ -1,0 +1,43 @@
+{
+  "name": "pos-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "cross-env NODE_ENV=development nodemon ./bin/www"
+  },
+  "dependencies": {
+    "apn": "^2.2.0",
+    "bcrypt": "^2.0.1",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.1",
+    "express": "~4.16.0",
+    "helmet": "^3.15.0",
+    "http-errors": "~1.6.2",
+    "joi": "^13.5.1",
+    "jsonwebtoken": "^8.2.1",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.3.1",
+    "multer-s3": "^2.9.0",
+    "mysql2": "^1.5.3",
+    "npm": "^6.4.1",
+    "path": "^0.12.7",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "save": "^2.3.2",
+    "sequelize": "^4.37.6",
+    "util": "^0.11.0",
+    "uuid": "^3.3.2",
+    "volleyball": "^1.5.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
